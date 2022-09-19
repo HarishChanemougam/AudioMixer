@@ -5,14 +5,14 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.WSA;
 
-public class RedButton : MonoBehaviour
+public class RedButton : MonoBehaviour, IUsable
 {
     GameObject gameobject;
     TextMeshProUGUI _text;
     Renderer _renderText;
     bool _canvas;
-    
-    public void LaunchPanCarte()
+
+    /*public void LaunchPanCarte()
     {
         _canvas.gameobject.Setactive(true);
         _renderText.text = _text;
@@ -32,15 +32,16 @@ public class RedButton : MonoBehaviour
 
         onPancartStop?.Invoke();
 
-    }
+    }*/
     public string GetName()
     {
         return "RedButton";
         
     }
 
-    public void Use()
+    public void use()
     {
+       
         Debug.Log("I AM RED");
     }
 }
