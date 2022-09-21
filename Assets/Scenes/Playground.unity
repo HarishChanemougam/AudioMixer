@@ -11205,9 +11205,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5da94590d31df844a8c30df801be67d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Sword: {fileID: 11400000, guid: bf72aa41e31ebd74fb97ae5e2d4e266e, type: 2}
-  _Apple: {fileID: 11400000, guid: 8af4de095d8d0e341ab7c323c4894526, type: 2}
-  _Key: {fileID: 11400000, guid: ec8d3771abb33404cadff76046c11bf8, type: 2}
+  _Sword:
+  - {fileID: 11400000, guid: bf72aa41e31ebd74fb97ae5e2d4e266e, type: 2}
+  - {fileID: 11400000, guid: ec8d3771abb33404cadff76046c11bf8, type: 2}
+  - {fileID: 11400000, guid: 8af4de095d8d0e341ab7c323c4894526, type: 2}
+  - {fileID: 11400000, guid: bb583f4d8ea0c1a4c962f48fec92ab1d, type: 2}
 --- !u!4 &1715634216
 Transform:
   m_ObjectHideFlags: 0

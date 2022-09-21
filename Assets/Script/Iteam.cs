@@ -6,13 +6,19 @@ using UnityEngine;
 
 public class Iteam : MonoBehaviour
 {
-    [SerializeField] IteamSO _Sword;
-    [SerializeField] IteamSO _Apple;
-    [SerializeField] IteamSO _Key;
+    [SerializeField] List<IteamSO> _Sword;
+
+
 
 
     private void Start()
     {
-        //Iteam = GameObject.Find("Iteams").GetComponent<IteamSO>();
+        foreach (IteamSO el in _Sword)
+        {
+            if (el is IteamSO)
+            {
+                IteamSO iteam = (IteamSO)el;
+            }
+        }
     }
 }

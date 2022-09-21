@@ -9,10 +9,13 @@ public class IteamSO : ScriptableObject
 {
     [SerializeField] string _name; 
     [SerializeField] int _price; 
-    [SerializeField] int _weight; 
+    [SerializeField] int _weight;
+    [SerializeField] Sprite _sprite;
     public string Name { get => _name; }
     public int Price { get => _price; }
     public int Weight { get => _weight; }
+
+    public Sprite Sprite { get => _sprite; }
 
 
     //[SerializeField] class Objects
